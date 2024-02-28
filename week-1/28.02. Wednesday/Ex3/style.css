@@ -1,0 +1,29 @@
+#cont{
+    position: relative;
+    background-color: gainsboro;
+    width: 300px;
+    height: 250px;
+}
+
+#red{
+    position: absolute;
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    bottom: 0;
+}
+
+#white{    
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 60% ;
+    top: 0;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.box{
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
