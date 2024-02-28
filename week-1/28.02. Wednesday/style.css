@@ -1,0 +1,23 @@
+#cont{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.child{
+    background-color: red;
+}
+
+#vr{
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: 25px;
+}
+
+#hr{
+    position: absolute;
+    left: 50px;
+    width: 25px;
+    height: 300px;
+}
