@@ -1,0 +1,11 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: lightgray;
+}
+
+.navbar p {
+    
+    display: inline-block;
+    padding: 5px 10px;
+}
