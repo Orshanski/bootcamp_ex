@@ -1,0 +1,66 @@
+#cont{
+    position: relative;
+    background-color: lightskyblue;
+    width: 50vw;
+    padding-top: 25%;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: 700;
+}
+
+.bar{
+    background-color: gainsboro;
+    width: 8%;
+    bottom: 1%;
+}
+    
+#x{
+    position: absolute;
+    bottom: -2%;
+    right: 2%;
+}
+
+#y{
+    position: absolute;
+    top: -2%;
+    left: 2% ;
+}
+
+#one{
+    position: absolute;
+    left: 1%;
+    height: 20%;
+}
+
+#two{
+    position: absolute;
+    left: 16%;
+    height: 60%;
+}
+
+#three{
+    position: absolute;
+    left: 31%;
+    height: 90%;
+}
+
+#four{
+    position: absolute;
+    left: 46%;
+    height: 80%;
+}
+
+#five{
+    position: absolute;
+    left: 61%;
+    height: 65%;
+}
+
+#six{
+    position: absolute;
+    left: 76%;
+    height: 40%;
+}
