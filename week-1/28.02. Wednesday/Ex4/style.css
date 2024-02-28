@@ -1,0 +1,26 @@
+#cont{
+    overflow: hidden;
+    background-color: black;
+    width: 400px;
+    height: 208px;
+}
+
+.box{
+    float: left;
+    background-color: #66320E;
+    width: 96px;
+    height: 96px;
+    margin: 2px;
+}
+
+.box_l2{
+    clear: both;
+}
+
+.line{
+  background-color: darkred;
+  height: 5px;
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 1px; 
+}
