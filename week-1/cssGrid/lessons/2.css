@@ -1,0 +1,61 @@
+#container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    /* 
+    first
+    "h h h h h h"
+    "s s m m m m"
+    "s s m m m m"
+    "s s m m m m"
+    "s s f f f f"; */
+    /* 
+    second
+    "h h h h h h"
+    "f f m s s s"
+    "f f m s s s"
+    "f f m s s s"
+    "f f m s s s"; */
+    /* 
+    third
+    "s s s s s s"
+    "f f f m m h"
+    "f f f m m h"
+    "f f f m m h"
+    "f f f m m h"; */
+    /* 
+    fourth
+    "h h f f s s"
+    "h h f f s s"
+    "h h f f s s"
+    "h h m m s s"
+    "h h m m s s"; */
+    /* fifth */
+    "h h f f s s"
+    "h h f f s s"
+    "h h . . s s"
+    "h h m m s s"
+    "h h m m s s";
+}
+
+.head{
+    grid-area: h;
+    background-color: rgb(243, 174, 84);
+}
+
+.side-nav{
+    grid-area: s;
+    background-color: red;
+}
+
+.main{
+    grid-area: m;
+    background-color: mediumaquamarine;
+}
+
+.foot{
+    grid-area: f;
+    background-color: lightgrey;
+}
