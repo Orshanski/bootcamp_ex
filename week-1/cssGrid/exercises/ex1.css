@@ -1,0 +1,105 @@
+.container {
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-areas:
+    "h h h h . c c ."
+    "am1 am1 am1 am1 . c c ."
+    "pb pb pb pb pb pb pb pb "
+    ". . . am2 am2 am2 am2 am2"
+    ". . . f f f f f"
+    ". . . f f f f f";
+}
+
+.header{
+    display: grid;
+    grid-template-areas: 
+    "wb1 wb1 wb2 wb2";
+    grid-area: h;
+}
+
+.whiteBanner{
+    height: 30px;
+    display: grid;
+    background-color: white;
+    border: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ametist{
+    height: 30px;
+    display: grid;
+    background-color: #993399;
+    border: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#wb1{
+    grid-area: wb1;
+    margin-right: 10px;
+}
+
+#wb2{
+    grid-area: wb2;
+    margin-left: 10px; 
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-area: c;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #ffffff 0%, #333333 100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#am1 {
+    grid-area: am1;
+}
+
+.purple{
+    height: 30px;
+    display: grid;
+    background-color: #663399;
+    border: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    grid-area: pb;
+    margin-bottom: 10px;
+}
+
+#am2{
+    grid-area: am2;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: grid;
+    background-color: cyan;
+    border: solid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    grid-template-areas:
+    "fb1 fb1 . ."
+    ". . fb2 fb2";
+    grid-area: f;
+}
+
+#fb1{
+    grid-area: fb1;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: -5px;
+}
+
+#fb2 {
+    grid-area: fb2;
+    margin-top: 10px;
+    margin-left: -5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
