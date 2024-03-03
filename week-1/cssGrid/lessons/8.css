@@ -1,0 +1,31 @@
+body {
+    position: relative;
+    background-color: lightgray;
+}
+
+#search-container{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.search-btn {
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+#results-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    min-height: 50px;
+    border: solid;
+    border-radius: 5px;
+}
