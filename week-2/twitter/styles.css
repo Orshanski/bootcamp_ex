@@ -83,7 +83,6 @@ body {
   font-size: smaller;
   justify-content: space-between;
   background-color: #ebebeb;
-  
 }
 
 #profileStats {
@@ -94,32 +93,32 @@ body {
   margin-left: 50px;
 }
 
-#bigLogo{
+#bigLogo {
   width: 150px;
   border: 4px solid white;
   border-radius: 50%;
 }
 
-.stat{
-    font-size: 8pt;
-    font-weight: 600;
-    text-align: center;
+.stat {
+  font-size: 8pt;
+  font-weight: 600;
+  text-align: center;
 }
 
-.sl{
-    font-size: 10pt;
-    font-weight: 600;
+.sl {
+  font-size: 10pt;
+  font-weight: 600;
 }
 
 #follow {
-    height: 30px;
-    width: 80px;
-    background-color: lightgrey;
-    color: #62b6df;
-    border: 1px solid #62b6df;
-    border-radius: 25px;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    margin-right: 20px;
-  }
+  height: 30px;
+  width: 80px;
+  background-color: lightgrey;
+  color: #62b6df;
+  border: 1px solid #62b6df;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 20px;
+}
