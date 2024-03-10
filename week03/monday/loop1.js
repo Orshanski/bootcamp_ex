@@ -10,7 +10,7 @@ const nm = document.getElementById("names")
 function displayNames() {    
     for (let i in names) {
         const nameElement = document.createElement("li");
-        nameElement.innerHTML = `${names[i].name} is ${names[i].age}`;
+        nameElement.innerHTML = `${names[i].name} is ${names[i].age} years old.`;
         nm.appendChild(nameElement);
     }
 }
