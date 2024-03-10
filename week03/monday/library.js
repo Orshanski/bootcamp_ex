@@ -13,7 +13,7 @@ function displayBooks() {
     for (let i = 0; i < library.books.length; i++) {
         const book = library.books[i];
         const bookElement = document.createElement("li");
-        bookElement.innerHTML = `${book.title} by ${book.author}`;
+        bookElement.innerHTML = `"${book.title}" by ${book.author}`;
         books.appendChild(bookElement);
     }
 }
