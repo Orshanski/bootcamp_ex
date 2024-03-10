@@ -1,8 +1,8 @@
-document.getElementById("startConversation").addEventListener("click", function () {
+function talk() {
     const boughtTesla = document.getElementById("boughtTesla").checked;
     const yearOfTeslaPurchase = parseInt(document.getElementById("yearOfPurchase").value, 10);
     const isUSCitizen = document.getElementById("isUSCitizen").checked;
-    const currentYear = new Date().getFullYear(); // Automatically get the current year
+    const currentYear = new Date().getFullYear();
     const conversationElement = document.getElementById("conversation");
 
     // Clear previous conversation
@@ -22,4 +22,4 @@ document.getElementById("startConversation").addEventListener("click", function 
     } else {
         conversationElement.innerHTML = "Are you interested in buying a Tesla?";
     }
-});
+};
