@@ -10,7 +10,7 @@ const library = {
 const books = document.getElementById("books");
 
 function displayBooks() {
-    for (let i = 0; i < library.books.length; i++) {
+    for (let i in library.books) {
         const book = library.books[i];
         const bookElement = document.createElement("li");
         bookElement.innerHTML = `"${book.title}" by ${book.author}`;
