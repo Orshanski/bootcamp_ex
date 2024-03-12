@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ex4</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container m-3">
+      <input
+        type="number"
+        step="0.01"
+        id="radius"
+        class="form-control"
+        placeholder="Enter radius"
+        value="1.25"
+      />
+      <button onclick="calculateArea()" class="btn btn-primary mt-3">
+        Calculate
+      </button>
+      <p class="alert alert-primary mt-3 " role="alert" id="result"></p>
+    </div>
+
+    <script src="ex4.js"></script>
+  </body>
+</html>
