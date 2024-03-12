@@ -8,14 +8,17 @@ function main() {
 
 function getColorType(color) {
     
-    const hasDigit = /\d/.test(color);
-    if (hasDigit) {
-        return 'Color cannot contain a number';
+    const hasChair = /[a-z]/.test(color.toLowerCase());
+    
+    if (color === '') {
+        return 'No color entered';
+    }
+    
+    if (hasChair === false) {
+        return 'Color must contain only letters';
     }
 
     switch (color.toLowerCase()) {
-        case '':
-            return 'No color entered';
         case 'yellow':
         case 'pink':
         case 'orange':
