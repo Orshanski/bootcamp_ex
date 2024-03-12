@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex8</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p class="m-3 ">Change text in fieds and press one of a button. Or just press some button several times</p>
+      <div class="row">
+        <div class="col-12 m-3">
+          <form>
+            <div class="form-group">
+              <label for="country">Country</label>
+              <input type="text" class="form-control" id="country" value="Spain"/>
+            </div>
+            <div class="form-group">
+              <label for="population">Population</label>
+              <input type="text" class="form-control" id="population" value="47"/>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row d-flex">
+        <div>
+          <button class="btn btn-primary m-3" id="fn1" onclick="countryInfo1()">Call function one</button>
+          <button class="btn btn-primary" id="fn2" onclick="countryInfo2()">Call function two</button>
+          <button class="btn btn-danger m-3" id="clear" onclick="clearInfo()">Clear</button>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="m-3 d-flex">
+          <div class="col-6 me-3">
+            <p>Function 1</p>
+            <div class="alert alert-primary" role="alert" id="resultFn1"></div>
+          </div>
+          <div class="col-6">
+            <p>Function 2</p>
+            <div class="alert alert-primary" role="alert" id="resultFn2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="ex8.js"></script>
+  </body>
+</html>
