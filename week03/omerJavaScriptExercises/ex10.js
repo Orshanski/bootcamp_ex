@@ -11,7 +11,7 @@ function grade() {
             return "C";
         } else if (score >= 65 && score <= 69) {
             return "D";
-        } else if (score < 65) {
+        } else if (score => 0 && score < 65) {
             return "F";
         } else {
             return "Invalid score";
