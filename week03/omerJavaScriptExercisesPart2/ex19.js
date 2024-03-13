@@ -84,10 +84,10 @@ function function6(arr) {
     return result
 }
 
-//I could use filter method here, not slice. Or I could use slice method, but hardcode the indexes
+//I using here "filter" method, not "slice". Or I could use "slice" method, but hardcode the indexes
 //I think filter method is more elegant
 function function7() {
-    result = arr.filter(name => name !== "Mary" && name !== "Matt")
+    result = arr.filter(name => !name.startsWith('M'))
     return result
 }
 
