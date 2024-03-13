@@ -11,22 +11,10 @@ function getString(country, population, capitalCity) {
     return `${country} has ${population} million people and its capital city is ${capitalCity}`;
 }
 
-function saveInfo() {
+function countryInfo() {
     let [country, population, capitalCity] = getInfo();
     let info = getString(country, population, capitalCity);
-    let countries = JSON.parse(localStorage.getItem('countries')) || [];
-    countries.push(info);
-    localStorage.setItem('countries', JSON.stringify(countries));
-}
-
-function countryInfo() {
-    saveInfo();
-    let countries = JSON.parse(localStorage.getItem('countries')) || [];
-    let result = '';
-    for (let country of countries) {
-        result += country + '<br>';
-    }
-    document.getElementById('result').innerHTML = result;
+    document.getElementById('result').innerHTML += info + '<br>';
 }
 
 function clearInfo() {
