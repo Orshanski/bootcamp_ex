@@ -14,5 +14,5 @@ function removeDuplicates(arr) {
 document.getElementById('get_new_array').addEventListener('click', function () {
     originalArray();
     newArray = removeDuplicates(originalArray());
-    document.getElementById('unique_array').innerHTML = newArray;
+    document.getElementById('unique_array').innerHTML = newArray.join(', ');
 });
