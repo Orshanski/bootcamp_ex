@@ -1,5 +1,5 @@
 function getInput() {
-    var input = document.getElementById("inputText").value;
+    let input = document.getElementById("inputText").value;
     return input;
 }
 
@@ -11,12 +11,12 @@ document.querySelectorAll('.btn').forEach(button => {
 });
 
 function buttonClicked(buttonValue) {
-    var input = getInput();
+    let input = getInput();
     if (input === "") {
         document.getElementById("outputText").innerHTML = "Please enter a password.";
         return;
     }
-    var output = "";
+    let output = "";
     switch (buttonValue) {
         case "one":
             output = validatePassword1(input);
@@ -45,13 +45,13 @@ function validatePassword1(password) {
 
 function validatePassword2(password) {
     clearOutput();
-    var output = password.length > 7 ? "Strong" : "Weak";
+    let output = password.length > 7 ? "Strong" : "Weak";
     return output;
 }
 
 function validatePassword3(password) {
     clearOutput();
-    var output = password.length > 7 && /[a-z]/i.test(password) ? "Strong" : "Weak";
+    let output = password.length > 7 && /[a-z]/i.test(password) ? "Strong" : "Weak";
     return output;
 }
 
@@ -72,7 +72,7 @@ function clearOutput() {
 }
 
 function getOutput() {
-    var output = document.getElementById("outputText").value;
+    let output = document.getElementById("outputText").value;
     return output;
 }
 

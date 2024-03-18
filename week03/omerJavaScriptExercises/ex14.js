@@ -3,10 +3,10 @@ function capitalizeFirstLetter(word) {
   }
 
 function countryToLiveIn(language, isIsland, population, country) {
-    var language = document.getElementById('language').value;
-    var isIsland = document.getElementById('isIsland').checked;
-    var population = document.getElementById('population').value;
-    var country = document.getElementById('country').value;
+    let language = document.getElementById('language').value;
+    let isIsland = document.getElementById('isIsland').checked;
+    let population = document.getElementById('population').value;
+    let country = document.getElementById('country').value;
     country = capitalizeFirstLetter(country);
 
     answer = '';

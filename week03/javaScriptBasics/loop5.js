@@ -1,5 +1,5 @@
 const dictionary = {
-    "A": ["Aardvark", "Abacus", "Actually", "Atomic"],
+    "A": ["Aardletk", "Abacus", "Actually", "Atomic"],
     "B": ["Banana", "Bonkers", "Brain", "Bump"],
     "C": ["Callous", "Chain", "Coil", "Czech"]
   }
